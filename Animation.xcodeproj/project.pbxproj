@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044E43CF2861DFF600545026 /* TVAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E43CE2861DFF600545026 /* TVAnimationViewController.swift */; };
+		044E43D22861E02C00545026 /* TVAnimationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E43D12861E02C00545026 /* TVAnimationTableViewCell.swift */; };
 		04E8830B286123A50021CBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8830A286123A50021CBE8 /* AppDelegate.swift */; };
 		04E8830D286123A50021CBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8830C286123A50021CBE8 /* SceneDelegate.swift */; };
 		04E8830F286123A50021CBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8830E286123A50021CBE8 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044E43CE2861DFF600545026 /* TVAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVAnimationViewController.swift; sourceTree = "<group>"; };
+		044E43D12861E02C00545026 /* TVAnimationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVAnimationTableViewCell.swift; sourceTree = "<group>"; };
 		04E88307286123A50021CBE8 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8830A286123A50021CBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E8830C286123A50021CBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +64,11 @@
 				04E8830C286123A50021CBE8 /* SceneDelegate.swift */,
 				04E8830E286123A50021CBE8 /* ViewController.swift */,
 				04E88310286123A50021CBE8 /* Main.storyboard */,
+				044E43D12861E02C00545026 /* TVAnimationTableViewCell.swift */,
 				04E88313286123AD0021CBE8 /* Assets.xcassets */,
 				04E88315286123AD0021CBE8 /* LaunchScreen.storyboard */,
 				04E88318286123AD0021CBE8 /* Info.plist */,
+				044E43CE2861DFF600545026 /* TVAnimationViewController.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				04E8830F286123A50021CBE8 /* ViewController.swift in Sources */,
 				04E8830B286123A50021CBE8 /* AppDelegate.swift in Sources */,
+				044E43D22861E02C00545026 /* TVAnimationTableViewCell.swift in Sources */,
 				04E8830D286123A50021CBE8 /* SceneDelegate.swift in Sources */,
+				044E43CF2861DFF600545026 /* TVAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
